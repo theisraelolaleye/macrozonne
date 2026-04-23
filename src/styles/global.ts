@@ -17,11 +17,19 @@ export const globalStyles = StyleSheet.create({
     paddingTop: 60,
     paddingHorizontal: 20,
   },
+
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+
   title: {
     fontSize: 28,
     fontWeight: 'bold',
     color: colors.text,
   },
+
   sectionTitle: {
     fontSize: 18,
     fontWeight: '600',
@@ -29,10 +37,12 @@ export const globalStyles = StyleSheet.create({
     marginTop: 30,
     marginBottom: 16,
   },
+
   empty: {
     color: colors.textSecondary,
     fontSize: 14,
   },
+  
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
